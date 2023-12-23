@@ -1,0 +1,6 @@
+nome = input('digite seu nome: ')
+print(nome.upper())
+print(nome.lower())
+print('seu nome tem ao todo sem considerar espaços {} letras'.format(len(nome) - nome.count(' ')))
+nome = nome.split()
+print('seu primeiro nome tem ao todo sem considerar espaços {} letras'.format(len(nome[0]) - nome[0].count(' ')))
