@@ -1,4 +1,4 @@
-''''''
+'''TYESTANS12345DO'''
 
 n1 = int(input('digite a primeira media: '))
 n2 = int(input('digite a segunda media: '))
