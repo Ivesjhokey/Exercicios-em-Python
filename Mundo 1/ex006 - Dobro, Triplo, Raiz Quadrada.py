@@ -1,3 +1,5 @@
+'''Crie um algoritmo que leia um número e mostre o seu dobro, triplo e sua raiz quadrada'''
+
 n1 = int(input('digite um numero: '))
 dobro = n1 + n1
 triplo = n1 + n1 + n1

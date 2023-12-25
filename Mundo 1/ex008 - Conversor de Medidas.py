@@ -1,3 +1,5 @@
+'''Escreva um programa que leia um valor em metros e o exiba convertido em centimetros e milimetros'''
+
 metros = int(input('digite um valor em metros: '))
 centimetros = metros*100
 milimetros = metros*1000
@@ -9,4 +11,3 @@ decimetro = metros*10
 print('{} metro(s) sao {} centimetro(s) e {} milimetro(s)'.format(metros, centimetros, milimetros))
 print('{} metro(s) sao {} kilometros(s) e {} hectometros(s)'.format(metros, kilometro, hectometro))
 print('{} metro(s) sao {} decametro(s) e {} decimetro(s)'.format(metros, decametro, decimetro))
-

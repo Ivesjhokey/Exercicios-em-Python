@@ -1,4 +1,4 @@
-'''TYESTANS12345DO'''
+'''Desenvolva um programa que leia duas notas de um aluno, calcule e mostre a sua média'''
 
 n1 = int(input('digite a primeira media: '))
 n2 = int(input('digite a segunda media: '))

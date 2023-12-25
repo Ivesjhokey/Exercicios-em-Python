@@ -1,3 +1,5 @@
+'''Faça um programa que leia um numero inteiro qualquer e mostre na tela a sua tabuada'''
+
 n1 = int(input('digite um numero inteiro: '))
 print('{:} x 1 = {}'.format(n1, n1 * 1))
 print('{:} x 2 = {}'.format(n1, n1 * 2))
