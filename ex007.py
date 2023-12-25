@@ -1,3 +1,5 @@
+''''''
+
 n1 = int(input('digite a primeira media: '))
 n2 = int(input('digite a segunda media: '))
 media = ((n1+n2)/2)

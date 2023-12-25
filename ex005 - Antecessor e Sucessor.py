@@ -1,3 +1,5 @@
+'''Faça um programa que leia um numero inteiro e mostre na tela o seu sucessor e seu antecessor'''
+
 n1 = int(input('digite um numero: '))
 suc = n1 + 1
 ant = n1 - 1
