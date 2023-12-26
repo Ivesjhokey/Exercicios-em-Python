@@ -1,4 +1,4 @@
-# lendo numeros e descobrindo se sao primos ou nao, alternativa guanabara ou melhor alternativa
+'''Faça um programa que leia um número inteiro e diga se ele é ou não um numero primo'''
 
 n1 = int(input('digite um valor: '))
 n2 = 0

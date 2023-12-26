@@ -1,3 +1,10 @@
+'''Crie um programa que leia dois valores e mostre um menu. Seu programa deverá realizar a operacão solicitada em cada caso
+   1 - Somar
+   2 - Multiplicar
+   3 - Maior
+   4 - Novos numeros
+   5 - Sair do programa'''
+
 # alternativa 1 jhokey
 
 n1 = float(input('digite um valor: '))

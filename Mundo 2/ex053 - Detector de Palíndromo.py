@@ -1,4 +1,4 @@
-# fazendo um palindromo
+'''Crie um programa que leia uma frase qualquer e diga se ela é um palindromo, desconsiderando os espaços'''
 
 for c in range(1, 3):
     n1 = input('digite uma frase: ')
