@@ -1,3 +1,5 @@
+'''Crie um programa que faça o computador jogar jokenpô com você'''
+
 from random import choice
 
 while True:

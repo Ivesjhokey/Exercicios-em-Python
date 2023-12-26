@@ -1,3 +1,8 @@
+'''Refaça o desafio 035 dos triangulos, acrescentando o recurso de mostrar que tipo de triângulo será formado:
+   Equilatero - todos os lados iguais
+   Isósceles - dois lados iguais
+   Escaleno - todos os lados diferentes'''
+
 n1 = float(input('digite um segmento: '))
 n2 = float(input('digite um segmento: '))
 n3 = float(input('digite um segmento: '))
