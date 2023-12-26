@@ -1,3 +1,5 @@
+'''Refaça o desafio 051, lendo o primeiro termo e a razão de uma PA, mostrando os 10 primeiros termos da progressão usando a estrutura while'''
+
 # alternativa 1 jhokey
 n = int(input('digite um numero: '))
 r = int(input('digite a razão: '))

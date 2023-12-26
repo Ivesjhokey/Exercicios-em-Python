@@ -1,3 +1,6 @@
+'''Crie um programa que leia vários números inteiros pelo teclado. No final da execução, mostre a média entre todos os valores
+   e qual foi o maior e o menor dos valores lidos. O programa deve perguntar ao usuário se ele quer ou não continuar a digitar valores'''
+
 # alternativa 1 de jhokey
 
 soma = cont = maior = menor = 0
@@ -18,4 +21,3 @@ while parar != 0:
         parar = 0
 print('voce digitou {} vezes, e a soma é {}, o maior é {},'
       ' o menor é {}, e a media é {}'.format(cont, soma, maior, menor, soma/cont))
-

@@ -1,3 +1,7 @@
+'''Crie um programa que simule o funcionamento de um caixa eletrônico. No inicio, pergunte ao usuário qual será
+   o valor a ser sacado(número inteiro) e o programa vai informar quantas cédulas de cada valor serão entregues
+   OBS: Considere que o caixa possui cédulas de R$50, R$20, R$10, R$1'''
+
 cedula50 = cedula20 = cedula10 = cedula1 = 0
 while True:
     n1 = int(input('qual valor voce quer sacar?: '))

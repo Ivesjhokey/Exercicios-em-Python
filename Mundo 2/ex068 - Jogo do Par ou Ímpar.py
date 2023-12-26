@@ -1,3 +1,6 @@
+'''Faça um programa que jogue 'Par ou Ímpar' com o computador. O jogo só será interrompido quando o jogador perder, 
+   mostrando o total de vitórias consecutivas que ele conquistou no final do jogo'''
+
 from random import randint
 venceu = 0
 while True:
