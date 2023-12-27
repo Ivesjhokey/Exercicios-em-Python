@@ -48,4 +48,3 @@ print(galera)
 print(dados)
 print(totmai)
 print(totmen)
-
