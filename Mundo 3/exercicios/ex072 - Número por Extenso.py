@@ -1,5 +1,7 @@
-#alternativa 1 jhokey
+'''Crie um programa que tenha uma tupla totalmente preenchida com um contagem por extenso, de zero até vinte.
+   Seu programa deverá ler um número pelo teclado (entre 0 e 20) e mostrá-lo por extenso.'''
 
+#alternativa 1 jhokey
 numeros = ('zero', 'um', 'dois', 'tres', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez', 'onze', 'doze', 'treze', 'quatroze', 'quinze', 'dezesseis', 'dezessete', 'dezoito', 'dezenove', 'vinte')
 while True:
     n1 = int(input('digite um numero de 0 a 20: '))
@@ -13,7 +15,6 @@ while True:
         print('tente novamente.', end=' ')
 
 # alternativa 2 jhokey
-
 numeros = ('zero', 'um', 'dois', 'tres', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez', 'onze', 'doze', 'treze', 'quatroze', 'quinze', 'dezesseis', 'dezessete', 'dezoito', 'dezenove', 'vinte')
 while True:
     n1 = int(input('digite um numero de 0 a 20: '))
