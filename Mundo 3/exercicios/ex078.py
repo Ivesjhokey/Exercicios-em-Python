@@ -1,62 +1,55 @@
-# import module
-import os
+'''Faça um programa que leia 5 valores numéricos e guarde-os em uma lista.
+   No final, mostre qual foi o maior e o menor valor digitado e as suas
+   respectivas posiçôes na lista.'''
+
+# alternativa jhokey
+num = []
+mai = 0
+men = 0
+
+for c in range (0, 5):
+    num.append(int(input(f'digite um valor para a posição {c}: ')))
+    if c == 0:
+        mai = men = num[c]
+    elif num[c] > mai:
+        mai = num[c]
+    elif num[c] < men:
+        men = num[c]
+
+print(f'o maior valor é {mai}, e esta nas posições: ',end='')
+for c in range(0, len(num)):
+    if num[c] == mai:
+        print(f'{c}... ',end='')
+print()
+print(f'o menor valor é {men}, e esta nas posições: ',end='')
+for c in range(0, len(num)):
+    if num[c] == men:
+        print(f'{c}... ',end='')
 
 
-# function to establish a new connection
-def createNewConnection(name, SSID, password):
-    config = """<?xml version=\"1.0\"?>
-<WLANProfile xmlns="http://www.microsoft.com/networking/WLAN/profile/v1">
-    <name>""" + name + """</name>
-    <SSIDConfig>
-        <SSID>
-            <name>""" + SSID + """</name>
-        </SSID>
-    </SSIDConfig>
-    <connectionType>ESS</connectionType>
-    <connectionMode>auto</connectionMode>
-    <MSM>
-        <security>
-            <authEncryption>
-                <authentication>WPA2PSK</authentication>
-                <encryption>AES</encryption>
-                <useOneX>false</useOneX>
-            </authEncryption>
-            <sharedKey>
-                <keyType>passPhrase</keyType>
-                <protected>false</protected>
-                <keyMaterial>""" + password + """</keyMaterial>
-            </sharedKey>
-        </security>
-    </MSM>
-</WLANProfile>"""
-    command = "netsh wlan add profile filename=\"" + name + ".xml\"" + " interface=Wi-Fi"
-    with open(name + ".xml", 'w') as file:
-        file.write(config)
-    os.system(command)
+#alternativa guanabara
+listanum = []
+mai = 0
+men = 0
 
+for c in range (0, 5):
+    listanum.append(int(input(f'digite um valor para a posição {c}: ')))
+    if c == 0:
+        mai = men = listanum[c]
+    else:
+        if listanum[c] > mai:
+            mai = listanum[c]
+        if listanum[c] < men:
+            men = listanum[c]
 
-# function to connect to a network
-def connect(name, SSID):
-    command = "netsh wlan connect name=\"" + name + "\" ssid=\"" + SSID + "\" interface=Wi-Fi"
-    os.system(command)
+print(f'o maior valor digitado foi {mai}, nas posiçoes ', end='')
+for i, v in enumerate(listanum):
+    if v == mai:
+        print(f'{i}... ',end='')
+print()
 
-
-# function to display avavilabe Wifi networks
-def displayAvailableNetworks():
-    command = "netsh wlan show networks interface=Wi-Fi"
-    os.system(command)
-
-
-# display available netwroks
-displayAvailableNetworks()
-
-# input wifi name and password
-name = input("Name of Wi-Fi: ")
-password = input("Password: ")
-
-# establish new connection
-createNewConnection(name, name, password)
-
-# connect to the wifi network
-connect(name, name)
-print("If you aren't connected to this network, try connecting with the correct password!")1
+print(f'o menor valor digitado foi {men}, nas posiçoes ', end='')
+for i, v in enumerate(listanum):
+    if v == men:
+        print(f'{i}... ',end='')
+print()
