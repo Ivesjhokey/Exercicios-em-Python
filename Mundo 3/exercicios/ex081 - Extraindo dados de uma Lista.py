@@ -1,3 +1,10 @@
+'''Crie um programa que vai ler vários números e colocar em uma lista.
+   Depois disso, mostre:
+   A: Quantos números foram digitados
+   B: A lista de valores, ordenada de forma decrescente
+   C: Se o valor 5 foi digitado e está ou não na lista'''
+
+#Alternativa 1 jhokey
 lista = []
 while True:
     lista.append(int(input('digite um valor: ')))
@@ -5,17 +12,15 @@ while True:
     if n1 in 'nN':
         break
 print(f'foram digitados {len(lista)} valores')
+lista.sort(reverse=True)
 print(lista)
 if 5 in lista:
     print('o valor 5 faz parte da lista')
 else:
     print('o valor 5 nao faz parte da lista')
-lista.sort(reverse=True)
 
-# aternativa 2 jhokey
-
+#aternativa 2 jhokey
 lista = []
-
 while True:
     n1 = int(input('digite um valor: '))
     if len(lista) == 0 or n1 >= lista[0]:
@@ -35,6 +40,7 @@ while True:
     if n2 in 'nN':
         break
 print(f'foram digitados {len(lista)} numeros')
+lista.sort(reverse=True)
 print(lista)
 if 5 in lista:
     print('o valor 5 faz parte da lista')

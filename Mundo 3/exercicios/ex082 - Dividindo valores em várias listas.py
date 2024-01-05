@@ -1,3 +1,8 @@
+'''Crie um programa que vai ler vários números e colocar em uma lista.
+   Depois disso, Crie duas listas extras que vão conter apenas os valores
+   pares e os valores impares digitados, respectivamente.
+   Ao final, mostre o conteudo das três listas geradas.'''
+
 lista = []
 par = []
 impar = []
