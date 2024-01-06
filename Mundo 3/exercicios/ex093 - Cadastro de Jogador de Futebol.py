@@ -1,3 +1,8 @@
+'''Crie um programa que gerencie o aproveitamento de um jogador
+   de futebol. O programa vai ler o nome do jogador e quantas
+   partidas ele jogou. No final, tudo isso será guardado em um
+   dicionário, incluindo o total de gols feitos durante o campeonato.'''
+
 dicionario = dict()
 dicionario['nome'] = str(input('nome do jogador: '))
 n2 = int(input(f'quantas partidas jogou {dicionario["nome"]}: '))

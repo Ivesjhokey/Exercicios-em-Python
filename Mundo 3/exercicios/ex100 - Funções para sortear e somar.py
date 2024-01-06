@@ -1,7 +1,10 @@
+'''Faça um programa que tenha uma lista chamada números e duas funções
+   chamadas sorteia() e somaPar(). A primeira função vai sortear 5 números
+   e vai colocá-los dentro da lista e a segunda função vai mostrar a soma
+   entre todos os valores PARES sorteados pela função anterior.'''
+
 from random import randint
 numeros = list()
-
-
 def sorteia(lista):
     print('sorteando 5 valores: ', end='')
     for c in range(0, 5):
@@ -19,7 +22,6 @@ def somapar(lista):
             contador = contador + lista[c]
 
     print(f'temos {contador}')
-
 
 sorteia(numeros)
 somapar(numeros)
