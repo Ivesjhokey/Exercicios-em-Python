@@ -1,11 +1,12 @@
-# Faça um programa que tenha uma função chamada ficha()
-# que receba dois parâmetros opcionais: o nome de um jogador e quantos gols ele marcou.
-# O programa deverá ser capaz de mostrar a ficha do jogador
-# mesmo que algum dado não tenha sido informado corretamente.
+'''Faça um programa que tenha uma função chamada ficha(). que
+   qreceba dois parâmetros opcionais: o nome de um jogador e
+   quantos gols ele marcou. O programa deverá ser capaz de mostrar
+   a ficha do jogador, mesmo que algum dado não tenha sido informado
+   corretamente.'''
 
+#Alternativa Jhokey
 def ficha(a='', b=''):
     return f'o jogador {a} marcou {b} gols'
-
 
 nome = str(input('nome: '))
 if nome == '':
@@ -19,12 +20,9 @@ n1 = ficha(a=nome, b=gols)
 print(n1)
 
 
-"""# alternativa guanabara
-
-
+# alternativa Guanabara
 def ficha(jog='<desconhecido>', gol=0):
     print(f'o {jog} fez {gol} gols no campeonato')
-
 
 n = str(input('nome: '))
 g = str(input('gols: '))
@@ -35,4 +33,4 @@ else:
 if n.strip() == '':
     ficha(gol=g)
 else:
-    ficha(n, g)"""
+    ficha(n, g)

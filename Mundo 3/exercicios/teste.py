@@ -1,4 +1,4 @@
-from tkinter import *
+'''from tkinter import *
 
 janela = Tk()
 janela.title('primeira janela')
@@ -7,7 +7,7 @@ janela.mainloop()
 
 
 
-'''n = 'maumau'
+n = 'maumau'
 print(n[1] in 'aeiou')
 
 lanche = ['arroz','cocacola', 'feijao', 'carne', 'salada']
