@@ -2,7 +2,10 @@
 Transfira todas as funções utilizadas nos desafios 107, 108 e 109 para o primeiro pacote e mantenha tudo funcionando."""
 
 
-from utilidadesCeV import moeda
+from utilidadescursoemvideo import Moeda
 
 n1 = int(input('digite um valor: '))
-print(moeda.resumo(n1, 10, 10))
+n3 = int(input('digite o aumento: '))
+n4 = int(input('digite a redução: '))
+n2 = str(input('quer converter "." para ","? [sim],[nao]: ')).lower()
+print(Moeda.resumo(n1, n2, n3, n4))

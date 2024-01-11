@@ -10,7 +10,7 @@ def resumo(n1=0, n2='', n3=0, n4=0):
     diminuiucarai = moeda(diminuiu, n2)
 
     return (f'o dobro = {dobrado}\no triplo = {triplicado}\na metade = {metadinha}\ncom {n3}% de aumento \n'
-            f' fica {aumentocarai}\n com {n4}% de desconto fica {diminuiucarai}')
+            f'fica {aumentocarai}\ncom {n4}% de desconto fica {diminuiucarai}')
 
 
 def moeda(n=0, ativar=''):
