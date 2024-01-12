@@ -5,5 +5,5 @@
 
 from exercicios.ex111.utilidadescursoemvideo import Dado, Moeda
 
-n1 = Dado.leiaDinheiro('digite um valor: ')
-Moeda.resumo(n1, n2=False)
+n1 = Dado.leiadinheiro('digite um valor: ')
+Moeda.resumo(n1)

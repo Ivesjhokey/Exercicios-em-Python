@@ -2,9 +2,10 @@
    chamada moeda() que consiga mostrar os valores como um valor
    monetário formatado.'''
 
-import Moedar
+from exercicios.ex108 import Moeda2
 
 n1 = float(input('digite o preço R$: '))
-print(f'aumentando 10% de {Moedar.moeda(n1)} temos {Moedar.aumentar(n1)}')
-print(f'diminuindo 10% de {Moedar.moeda(n1)} temos {Moedar.diminuir(n1)}')
-print(f'a metade de {Moedar.moeda(n1)} = {Moedar.metade(n1)}')
+print(f'Aumentando 10% de {Moeda2.moeda(n1)} temos {Moeda2.moeda(Moeda2.aumentar(n1, 10))}')
+print(f'Diminuindo 10% de {Moeda2.moeda(n1)} temos {Moeda2.moeda(Moeda2.diminuir(n1, 10))}')
+print(f'A metade de {Moeda2.moeda(n1)} = {Moeda2.moeda(Moeda2.metade(n1))}')
+print(f'O dobro de {Moeda2.moeda(n1)} = {Moeda2.moeda(Moeda2.dobro(n1))}')

@@ -3,10 +3,10 @@
    vai ser ou não formatado pela função moeda(), desenvolvida no desafio 108."""
 
 
-import Moedars
-n1 = float(input('digite o preço R$: '))
-n2 = str(input('quer converter "." para ","? [sim],[nao]: ')).lower()
+from exercicios.ex109 import Moeda3
 
-print(f'aumentando 10% de {Moedars.moeda(n1, n2)} temos {Moedars.aumentar(n1, n2)}')
-print(f'diminuindo 10% de {Moedars.moeda(n1, n2)} temos {Moedars.diminuir(n1, n2)}')
-print(f'a metade de {Moedars.moeda(n1, n2)} = {Moedars.metade(n1, n2)}')
+n1 = float(input('digite o preço R$: '))
+print(f'Aumentando 10% de {Moeda3.moeda(n1)} temos {Moeda3.aumentar(n1, 10, True)}')
+print(f'Diminuindo 10% de {Moeda3.moeda(n1)} temos {Moeda3.diminuir(n1, 10, True)}')
+print(f'A metade de {Moeda3.moeda(n1)} = {Moeda3.metade(n1, True)}')
+print(f'O dobro de {Moeda3.moeda(n1)} = {Moeda3.dobro(n1, True)}')
