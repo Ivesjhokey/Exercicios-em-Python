@@ -2,7 +2,7 @@
 Transfira todas as funções utilizadas nos desafios 107, 108, 109 e 110 para o primeiro pacote e mantenha tudo funcionando."""
 
 
-from ex111.utilidadescursoemvideo import Moeda
+from exercicios.ex111.utilidadescursoemvideo import Moeda
 
 n1 = int(input('digite um valor: '))
 n3 = int(input('digite o aumento: '))
