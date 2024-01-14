@@ -3,7 +3,7 @@ incluindo agora a possibilidade da digitação de um número de tipo inválido.
 Aproveite e crie também uma função leiaFloat() com a mesma funcionalidade."""
 
 # alternativa 1 jhokey
-"""
+
 def leiaint(a):
     while True:
         try:
@@ -15,8 +15,8 @@ def leiaint(a):
             return print(f'o numero digitado foi {a}')
 
 
-leiaint('digite um numero: ')
-"""
+"""leiaint('digite um numero: ')
+
 
 # alternativas guanabara
 
@@ -57,3 +57,4 @@ def leiafloat(msg):
 
 
 n1 = (leiafloat('digite um numero: '))
+"""
