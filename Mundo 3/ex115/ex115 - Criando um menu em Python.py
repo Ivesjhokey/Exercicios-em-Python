@@ -4,8 +4,8 @@
    listar todas as pessoas cadastradas.'''
 
 
-from mundo3final.lib.interface import *
-from mundo3final.lib.arquivo import *
+from ex115.lib.interface import *
+from ex115.lib.arquivo import *
 
 arquivo = 'pessoas.txt'
 
