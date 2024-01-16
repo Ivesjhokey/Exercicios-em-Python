@@ -3,7 +3,7 @@
    de funcionar como a funçao input(), mas com uma validação de dados para aceitar
    apenas valores que sejam monetários.'''
 
-from exercicios.ex111.utilidadescursoemvideo import Dado, Moeda
+from ex111.utilidadescursoemvideo import Dado, Moeda
 
 n1 = Dado.leiadinheiro('digite um valor: ')
 Moeda.resumo(n1)

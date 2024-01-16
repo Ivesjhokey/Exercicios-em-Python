@@ -1,1 +1,1 @@
-from exercicios.ex111.utilidadescursoemvideo import Dado, Moeda
+from ex111.utilidadescursoemvideo import Dado, Moeda
