@@ -2,7 +2,7 @@
    chamada moeda() que consiga mostrar os valores como um valor
    monetário formatado.'''
 
-from exercicios.ex108 import Moeda2
+from ex108 import Moeda2
 
 n1 = float(input('digite o preço R$: '))
 print(f'Aumentando 10% de {Moeda2.moeda(n1)} temos {Moeda2.moeda(Moeda2.aumentar(n1, 10))}')

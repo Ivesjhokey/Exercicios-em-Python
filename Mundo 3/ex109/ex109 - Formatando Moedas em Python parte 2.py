@@ -3,7 +3,7 @@
    vai ser ou não formatado pela função moeda(), desenvolvida no desafio 108."""
 
 
-from exercicios.ex109 import Moeda3
+from ex109 import Moeda3
 
 n1 = float(input('digite o preço R$: '))
 print(f'Aumentando 10% de {Moeda3.moeda(n1)} temos {Moeda3.aumentar(n1, 10, True)}')

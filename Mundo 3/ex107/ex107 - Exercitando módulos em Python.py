@@ -5,7 +5,7 @@
 
 # import Moeda ou
 
-from exercicios.ex107 import Moeda
+from ex107 import Moeda
 n1 = float(input('digite o preço R$: '))
 print(f'aumentando 10% de {n1} temos {Moeda.aumentar(n1, 10)}')
 print(f'diminuindo 10% de {n1} temos {Moeda.diminuir(n1, 10)}')

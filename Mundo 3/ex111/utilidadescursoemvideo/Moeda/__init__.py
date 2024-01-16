@@ -1,4 +1,4 @@
-def moeda(preço=0, moedar='R$', formato=False):
+def moeda(preço=0, moedar='R$'):
     return f'{moedar}{preço:>.2f}'.replace('.', ',')
 
 
