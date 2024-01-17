@@ -3,7 +3,7 @@
    que importe esse módulo e use algumas dessas funções."""
 
 
-# import Moeda ou
+# import Moeda5 ou
 
 from ex107 import Moeda
 n1 = float(input('digite o preço R$: '))
@@ -14,7 +14,7 @@ print(f'a metade de {n1} = {Moeda.metade(n1)}')
 
 
 '''outro metodo:
-from Moeda import aumentar, diminuir, dobro, metade
+from Moeda5 import aumentar, diminuir, dobro, metade
 n1 = float(input('digite o preço R$: '))
 print(f'aumentando 10% de {n1} temos {aumentar(n1, 10)}')
 print(f'diminuindo 10% de {n1} temos {diminuir(n1, 10)}')

@@ -25,5 +25,5 @@ def metade(preço, formato=False):
 '''podemos usar muitas maneiras para usar o return, nesse caso vamos usar:
    return resultado if formato is False else moeda(resultado)
    mas poderiamos tambem utilizar:
-   return resultado if not formato else Moeda(resultado)
+   return resultado if not formato else Moeda5(resultado)
    nesse caso optei por utilizar todos da primeira maneira pois me convém'''

@@ -22,19 +22,19 @@ def metade(preço, formato=False):
     return resultado if formato is False else moeda(resultado)
 
 
-def resumo(preço=0, taxaa=0, taxar=0, formato=False):
+def resumo(preço=0, taxaa=0, taxar=0):
     print('-' * 30)
     print('RESUMO DO VALOR'.center(30))
     print('-' * 30)
-    print(f'Preço analisado: \t{moeda(preço, formato)}')
-    print(f'Metade do preço: \t{metade(preço, formato)}')
-    print(f'Dobro do preço: \t{dobro(preço, formato)}')
-    print(f'{taxaa}% de aumento: \t{aumentar(preço, taxaa, formato)}')
-    print(f'{taxar}% de redução: \t{diminuir(preço, taxar, formato)}')
+    print(f'Preço analisado: \t{moeda(preço)}')
+    print(f'Metade do preço: \t{metade(preço, True)}')
+    print(f'Dobro do preço: \t{dobro(preço, True)}')
+    print(f'{taxaa}% de aumento: \t{aumentar(preço, taxaa, True)}')
+    print(f'{taxar}% de redução: \t{diminuir(preço, taxar, True)}')
 
 
 '''podemos usar muitas maneiras para usar o return, nesse caso vamos usar:
    return resultado if formato is False else moeda(resultado)
    mas poderiamos tambem utilizar:
-   return resultado if not formato else Moeda(resultado)
+   return resultado if not formato else Moeda5(resultado)
    nesse caso optei por utilizar todos da primeira maneira pois me convém'''

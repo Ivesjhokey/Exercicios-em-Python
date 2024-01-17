@@ -2,6 +2,7 @@
 incluindo agora a possibilidade da digitação de um número de tipo inválido.
 Aproveite e crie também uma função leiaFloat() com a mesma funcionalidade."""
 
+
 # alternativa 1 jhokey
 
 def leiaint(a):
@@ -15,9 +16,9 @@ def leiaint(a):
             return print(f'o numero digitado foi {a}')
 
 
-"""leiaint('digite um numero: ')
+leiaint('digite um numero: ')
 
-
+"""
 # alternativas guanabara
 
 

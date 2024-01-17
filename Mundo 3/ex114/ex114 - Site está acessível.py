@@ -1,5 +1,4 @@
-'''Crie um código em python que teste se o site Pudim está acessível pelo computador usado.'''
-
+"""Crie um código em python que teste se o site Pudim está acessível pelo computador usado."""
 
 import urllib
 import urllib.request
@@ -11,7 +10,6 @@ except urllib.error.URLError:
 else:
     print('deu tudo certo')
     # print(site.reade()) vai mostrar o codigo do site
-    # voce consegue pegar o conteudo html que vc esta
-    # esta tentando acessar
+    # voce consegue pegar o conteudo html que vc esta tentando acessar
 finally:
     print('muito obrigado, tenha um bom dia!')

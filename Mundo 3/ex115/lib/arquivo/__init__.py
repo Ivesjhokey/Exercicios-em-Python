@@ -1,4 +1,4 @@
-from mundo3final.lib.interface import *
+from ex115.lib.interface import *
 
 
 def arquivoexiste(nome):
