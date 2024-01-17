@@ -16,7 +16,24 @@ def leiaint(a):
             return print(f'o numero digitado foi {a}')
 
 
+def leiafloat(msg):
+    while True:
+        try:
+            msg = float(input(msg))
+        except (ValueError, TypeError):
+            print('ERRO, digite um numero valido')
+            continue
+        except KeyboardInterrupt:
+            print('o usuario preferiu nao digitar os valores')
+            break
+        else:
+            print(f'o valor digitado foi {msg}')
+        finally:
+            return print('fim de programa, tenha um bom dia')
+
+
 leiaint('digite um numero: ')
+leiafloat('digite um numero: ')
 
 """
 # alternativas guanabara
