@@ -10,7 +10,7 @@ def leiaint(a):
         try:
             a = int(input(a))
         except:
-            print(f'infelizmente tivemos um erro')
+            print(f'ERRO, digite um número inteiro válido')
             continue
         else:
             return print(f'o numero digitado foi {a}')
@@ -21,7 +21,7 @@ def leiafloat(msg):
         try:
             msg = float(input(msg))
         except (ValueError, TypeError):
-            print('ERRO, digite um numero valido')
+            print('ERRO, digite um número real válido')
             continue
         except KeyboardInterrupt:
             print('o usuario preferiu nao digitar os valores')
@@ -32,8 +32,8 @@ def leiafloat(msg):
             return print('fim de programa, tenha um bom dia')
 
 
-leiaint('digite um numero: ')
-leiafloat('digite um numero: ')
+n1 = (leiaint('digite um numero inteiro: '))
+n2 = (leiafloat('digite um numero real: '))
 
 """
 # alternativas guanabara
